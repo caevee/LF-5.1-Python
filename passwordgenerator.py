@@ -1,7 +1,7 @@
 import random
 
 def generate_password():
-    # Initialisiere Passwort als Liste und Ascii Set
+    # Deklariere Passwort als Liste und initialiere Ascii Set
     pw = []
     # Ascii character von 33 bis 127
     characters = "".join(chr(char) for char in range(33, 127))
