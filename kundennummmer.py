@@ -11,7 +11,6 @@ def generateKundennummer():
 
     # Befuelle Stellen 3-10 mit zufaelligen Zahlen
     for i in range(2, 10):
-        print(i)
         randomNum = random.randint(1,9)
         quersumme += randomNum
         kundennummer[i] = str(randomNum)
